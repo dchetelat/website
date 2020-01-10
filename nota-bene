@@ -1,0 +1,5 @@
+On dirait qu'il y a une ligne étrange <link rel="stylesheet" type="text/css" media="screen" href=css/main.css/>
+qui est générée? Ça devrait être
+
+	<link rel="stylesheet" type="text/css" media="screen" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />

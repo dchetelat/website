@@ -1,8 +1,7 @@
-baseURL = "https://dchetelat.github.io"
+# baseURL = "https://dchetelat.github.io/"
 languageCode = "en-us"
 title = "Didier Chételat"
 theme = "avicenna"
-# googleAnalytics = "UA-1234-6"
 timeout=3000
 
 [params]
