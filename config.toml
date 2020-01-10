@@ -1,3 +1,146 @@
-baseURL = "http://example.org/"
+# baseURL = "https://www.didierchetelat.com"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Didier Chételat"
+theme = "avicenna"
+# googleAnalytics = "UA-1234-6"
+timeout=3000
+
+[params]
+  subtitle= "Research Scientist"
+  interests="Machine Learning, Combinatorial Optimization"
+  # cv_name= "HadiSinaee_CV.pdf"
+  # blog="http://myblog.edu"
+
+[[params.affilation]]
+  name = "Polytechnique Montréal"
+  position = "Research Scientist"
+  contact = "didier.chetelat@polymtl.ca"
+
+# [[params.affilation]]
+#   name = "MyCoolStartup"
+#   position = "Co-Founder"
+#   contact = "hadi@mycoolstartup.ai"
+
+[[params.social]]
+  name = "GitHub"
+  icon = "github"
+  url = "https://github.com/dchetelat/"
+
+# [[params.social]]
+#   name = "Twitter"
+#   icon = "twitter"
+#   url = "https://twitter.com/hadisinaee"
+
+
+[[params.social]]
+  name = "LinkedIn"
+  icon = "linkedin"
+  url = "https://www.linkedin.com/in/didier-ch%C3%A9telat-2b61b355"
+
+
+[[params.introduction.paragraph]]
+  text="""
+  I'm a machine learning researcher at the [Canada Excellence Research Chair in Data Science for Real Time
+  Decision Making](https://cerc-datascience.polymtl.ca/), under the leadership of Andrea Lodi.
+  I obtained my Ph.D. in Statistics at Cornell University in 2015 under the supervision of Martin T. Wells.
+   """
+[[params.introduction.paragraph]]
+  text=""" My main research interests center around deep learning for combinatorial optimization.
+  I also work on several applied projects, lately in finance, transportation medical imaging and physical engineering.
+  """
+
+
+# [[params.projects]]
+# 	[[params.projects.project]]
+# 		name = "Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor"
+# 		description  = "Enim facilisis gravida neque convallis a. Suspendisse potenti nullam ac tortor vitae purus faucibus ornare suspendisse.Velit egestas dui id ornare arcu odio ut sem. Nec nam aliquam sem et tortor. In nisl nisi scelerisque eu ultrices vitae auctor."
+# 		project_page = "https://myprojecthomepage.com"
+# 		code_link = "https://coderepo.com"
+# 		blog_link = "https://ablogpost.com"
+#
+#  [[params.projects.project]]
+# 		name = "In nisl nisi scelerisque eu ultrices vitae auctor"
+# 		description  = ""
+# 		project_page = "https://myprojecthomepage.com"
+# 		code_link = "https://coderepo.com"
+# 		blog_link = ""
+#
+#  [[params.projects.project]]
+# 		name = "Integer eget aliquet nibh praesent tristique magna"
+# 		description  = ""
+# 		project_page = "https://myprojecthomepage.com"
+# 		code_link = ""
+# 		blog_link = "https://ablogpost.com"
+
+[[params.publications]]
+  # year="Preprint"
+  #
+  # [[params.publications.paper]]
+  #   name = "Enim nunc faucibus a pellentesque sit amet porttitor"
+  #   authors = "Ana Alvardo, William Worthley, __Hadi Sinaee__"
+  #   dest  = "Helga Zita Journal"
+  #   link = "https://mypaperishere.com"
+  #   code_link = "https://thecoderepo.com"
+  #   blog_link = "https://myblogaboutit.com"
+  #
+  # [[params.publications.paper]]
+  #   name = "In cursus turpis massa tincidunt dui ut ornare lectus sit"
+  #   authors = "__Hadi Sinaee__,Les Larkins, Edra Ethier"
+  #   dest  = "Meklit Katlego Conference"
+  #   link = "https://mypaperishere.com"
+  #   code_link = "https://thecoderepo.com"
+  #   blog_link = "https://myblogaboutit.com"
+
+[[params.publications]]
+  year="2019"
+
+  [[params.publications.paper]]
+		name = "Exact combinatorial optimization with graph convolutional neural networks"
+		authors = "Maxime Gasse, __Didier Chételat__, Nicola Ferroni, Laurent Charlin, Andrea Lodi"
+		dest  = "Advances in Neural Information Processing Systems 32, 15554--15566"
+		link = "https://papers.nips.cc/paper/9690-exact-combinatorial-optimization-with-graph-convolutional-neural-networks.pdf"
+		code_link = "https://github.com/ds4dm/learn2branch"
+
+  [[params.publications.paper]]
+		name = "The middle-scale asymptotics of Wishart matrices"
+		authors = "__Didier Chételat__, Martin T. Wells"
+		dest  = "Annals of Statistics 47, 2639-2670"
+		link = "https://projecteuclid.org/euclid.aos/1564797859"
+
+
+[[params.publications]]
+  year="2018"
+
+  [[params.publications.paper]]
+		name = "On the domain of attraction of a Tracy–Widom law with applications to testing multiple largest roots"
+		authors = "__Didier Chételat__, Rajendran Narayanan, Martin T. Wells"
+		dest  = "Journal of Multivariate Analysis 165, 132-142"
+		link = "https://arxiv.org/abs/1510.08873"
+
+[[params.publications]]
+  year="2017"
+
+  [[params.publications.paper]]
+        name = "Optimal two-step prediction in regression"
+        authors = "__Didier Chételat__, Joseph Salmon, Johannes Lederer"
+        dest  = "Electronic Journal of Statistics 11, 2519-2546"
+        link = "https://arxiv.org/abs/1410.5014"
+
+[[params.publications]]
+    year="2016"
+
+        [[params.publications.paper]]
+        name = "Improved second order estimation in the singular multivariate normal model"
+        authors = "__Didier Chételat__, Martin T. Wells"
+        dest  = "Journal of Multivariate Analysis 147, 1-19"
+        link = "https://arxiv.org/abs/1509.02451"
+
+
+[[params.publications]]
+    year="2012"
+
+    [[params.publications.paper]]
+    name = "Improved multivariate normal mean estimation with unknown covariance when p is greater than n"
+    authors = "__Didier Chételat__, Martin T. Wells"
+    dest  = "Annals of Statistics 40, 3137-3160"
+    link = "https://arxiv.org/abs/1302.6746"
